@@ -1,0 +1,1 @@
+{"aplication": {"version": "0.0.?"}, "login": {"login": ["a", "b", "a"], "password": ["123", "bingo", "123"]}, "keys": {"": [true, ">doNothing"], "run": [true, ">run"], "test": [true, ">test"], "login": [true, ">login"], "tchau": [true, ">tchau"], "exit": [false, "Bye Bye..."]}}
