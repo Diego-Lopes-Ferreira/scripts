@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <title>Because we like it random</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: 2rem;
+      user-select: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <p id="counter">Click on the screen</p>
+  <script>
+    let paragraph = document.getElementById('counter');
+    let body = document.querySelector('body');
+    let counter = 0;
+    window.addEventListener('click', () => {
+      counter++;
+      paragraph.innerHTML = counter;
+      let fontSize = Math.random().toString().slice(2, 4);
+      paragraph.style = `font-size: ${fontSize}px`;
+      let color = Math.random().toString(16).slice(2, 8);
+      console.log(color)
+      body.style = `background-color: #${color}`;
+    })
+  </script>
+
+</body>
+
+</html>
