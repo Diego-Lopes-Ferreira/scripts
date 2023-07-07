@@ -42,7 +42,7 @@ function hms(seconds) {
 //console.log(hms(timessss));
 
 function get_local_hm(date) {
-  return date.getHours() + ':' + date.getMinutes() 
+  return date.getHours() + ':' + date.getMinutes()
 }
 console.log(get_local_hm(new Date()))
 
@@ -63,5 +63,3 @@ function str_dhms(date={seconds: 1, minutes: 1, hours: 1, days: 1}) {
   return final
 }
 console.log(str_dhms({seconds: 0, minutes: 15, hours: 1, days: 0}))
-
-

@@ -6,4 +6,3 @@ echo "Tell me something"
 read what
 
 echo "You typed: \"$what\""
-
