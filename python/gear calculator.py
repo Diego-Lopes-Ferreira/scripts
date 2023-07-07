@@ -42,7 +42,7 @@ def findRatio(rel):
 
 def gearByDiameter(diam):
     '''Calculates the number of teeth based on the diameter passed and the module set
-    Prints all the info about the gear: External diameter (de), Primitive diameter (dp), Interna diameter (di), 
+    Prints all the info about the gear: External diameter (de), Primitive diameter (dp), Interna diameter (di),
     Heith of teeth (h), Heith of head (a), Heith of feet (b) and pitch (p)'''
     global modulo, pi
     nTeeth = diam / modulo
@@ -61,7 +61,7 @@ def gearByDiameter(diam):
 
 def gearByExtDiam(de):
     '''Calculates the number of teeth based on the external diameter passed and the module set
-    Prints all the info about the gear: External diameter (de), Primitive diameter (dp), Interna diameter (di), 
+    Prints all the info about the gear: External diameter (de), Primitive diameter (dp), Interna diameter (di),
     Heith of teeth (h), Heith of head (a), Heith of feet (b) and pitch (p)'''
     global modulo, pi
     a = modulo
@@ -98,4 +98,3 @@ findRatio(1.2727272727272727)
 '''
 
 gearByExtDiam(5.2)
-

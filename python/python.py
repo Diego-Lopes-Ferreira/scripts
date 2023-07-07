@@ -66,22 +66,22 @@ def login():
   return 0
 
 config = {
-  'aplication': 
+  'aplication':
   {
     'version': '0.0.?'
-  }, 
-  'login': 
+  },
+  'login':
   {
-    'login': ['a', 'b'], 
+    'login': ['a', 'b'],
     'password': ['123', 'bingo']
   },
-  'keys': 
+  'keys':
   {
     '': [True, '>doNothing'],
-    'run': [True, '>run'], 
-    'test': [True, '>test'], 
-    'login': [True, '>login'], 
-    'tchau': [True, '>tchau'], 
+    'run': [True, '>run'],
+    'test': [True, '>test'],
+    'login': [True, '>login'],
+    'tchau': [True, '>tchau'],
     'exit': [False, 'Bye Bye...']
   }
 }

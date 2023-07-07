@@ -9,7 +9,7 @@ def loading(lenth):
   divider = lenth / 20
   for i in range(lenth):
     print(' |', end='')
-    
+
     n = int(i / divider)
     if i == lenth - 1:
       n = int(i / divider) + 1
